@@ -191,11 +191,7 @@ public final class R {
         /** 秘鲁色 
          */
         public static final int indianred=0x7f040041;
-<<<<<<< HEAD
         /** 暗橄榄绿  
-=======
-        /** 暗橄榄绿 
->>>>>>> branch 'master' of git@github.com:ChouSkim/FoodieAssistant.git
          */
         public static final int indigo=0x7f040073;
         /** 白色 
@@ -468,7 +464,6 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-<<<<<<< HEAD
         public static final int LinearLayout1=0x7f090001;
         public static final int ThirdActivityLayout=0x7f090000;
         public static final int action_settings=0x7f09000d;
@@ -483,22 +478,6 @@ public final class R {
         public static final int orderButton=0x7f090002;
         public static final int startUpPicture=0x7f090007;
         public static final int textView1=0x7f090004;
-=======
-        public static final int LinearLayout1=0x7f090009;
-        public static final int ThirdActivityLayout=0x7f090006;
-        public static final int action_settings=0x7f09000d;
-        public static final int button1=0x7f09000c;
-        public static final int callNumber=0x7f09000b;
-        public static final int imageView1=0x7f090007;
-        public static final int linearlayout1=0x7f090003;
-        public static final int linearlayout2=0x7f090004;
-        public static final int listView1=0x7f090000;
-        public static final int loginButton=0x7f090005;
-        public static final int loginTextView=0x7f090002;
-        public static final int orderButton=0x7f09000a;
-        public static final int startUpPicture=0x7f090001;
-        public static final int textView1=0x7f090008;
->>>>>>> branch 'master' of git@github.com:ChouSkim/FoodieAssistant.git
     }
     public static final class layout {
         public static final int activity_fifth=0x7f030000;
@@ -511,19 +490,14 @@ public final class R {
         public static final int third=0x7f030007;
     }
     public static final class menu {
-<<<<<<< HEAD
         public static final int fifth=0x7f080000;
         public static final int main=0x7f080001;
-=======
-        public static final int main=0x7f080000;
->>>>>>> branch 'master' of git@github.com:ChouSkim/FoodieAssistant.git
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int callNumber=0x7f060006;
         public static final int collect_orders=0x7f060007;
-<<<<<<< HEAD
         public static final int current_number=0x7f06000d;
         public static final int hello_world=0x7f060002;
         public static final int login=0x7f060005;
@@ -537,17 +511,6 @@ public final class R {
         public static final int title_activity_third=0x7f06000a;
         public static final int user=0x7f060003;
         public static final int wait_table=0x7f06000f;
-=======
-        public static final int hello_world=0x7f060002;
-        public static final int login=0x7f060005;
-        public static final int nullvalue=0x7f060009;
-        public static final int order=0x7f06000b;
-        public static final int password=0x7f060004;
-        public static final int title_activity_fourth=0x7f06000c;
-        public static final int title_activity_second=0x7f060008;
-        public static final int title_activity_third=0x7f06000a;
-        public static final int user=0x7f060003;
->>>>>>> branch 'master' of git@github.com:ChouSkim/FoodieAssistant.git
     }
     public static final class style {
         /** 
