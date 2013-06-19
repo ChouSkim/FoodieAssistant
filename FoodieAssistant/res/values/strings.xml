@@ -14,5 +14,9 @@
     <string name="title_activity_third">ThirdActivity</string>
     <string name="order">查看菜单</string>
     <string name="title_activity_fourth">FourthActivity</string>
+    <string name="current_number">当前叫的号码：</string>
+    <string name="title_activity_fifth">FifthActivity</string>
+    <string name="wait_table">等位</string>
+    <string name="refresh">刷新</string>
 
 </resources>
