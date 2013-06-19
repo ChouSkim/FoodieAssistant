@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/ic_launcher"
+    android:background="@drawable/backgroud"
     android:orientation="vertical" >
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/red"
+        android:background="@color/peachpuff"
         android:text="@string/login" />
 
 </RelativeLayout>
