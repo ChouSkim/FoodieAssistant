@@ -8,36 +8,31 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class SecondActivity extends Activity {
+public class ThirdActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_second);
+		setContentView(R.layout.activity_third);
 
-		Intent intent = getIntent();
-		Bundle bundle = intent.getExtras();
-
-		Button loginButton = (Button) findViewById(R.id.loginButton);
-		loginButton.setOnClickListener(new OnClickListener() {
+		Button orderButton = (Button) findViewById(R.id.orderButton);
+		orderButton.setOnClickListener(new OnClickListener() {
 			private static final int RESULT_CODE = 1;
 
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
-				intent.setClass(SecondActivity.this, ThirdActivity.class);
+				intent.setClass(ThirdActivity.this, FourthActivity.class);
 				startActivityForResult(intent, RESULT_CODE);
 			}
 		});
-
-		// bundle.getString();
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.second, menu);
+		getMenuInflater().inflate(R.menu.third, menu);
 		return true;
 	}
 
