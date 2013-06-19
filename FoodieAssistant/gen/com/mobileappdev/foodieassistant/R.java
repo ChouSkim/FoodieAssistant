@@ -51,10 +51,7 @@ public final class R {
         public static final int third=0x7f030006;
     }
     public static final class menu {
-        public static final int fourth=0x7f070000;
-        public static final int main=0x7f070001;
-        public static final int second=0x7f070002;
-        public static final int third=0x7f070003;
+        public static final int main=0x7f070000;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
